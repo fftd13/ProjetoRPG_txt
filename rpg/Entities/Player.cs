@@ -6,6 +6,7 @@ namespace rpg.Entities
     {
         public string Name { get; set; }
         public Status Status { get; set; }
-        public int MyProperty { get; set; }
+        public Acao Acao { get; set; }
+
     }
 }
